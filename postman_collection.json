@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "bd1dae9d-31bf-4233-9c12-492db64867f1",
+		"name": "Contact Form API - EZ Labs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49882655",
+		"_collection_link": "https://agupta54145-8069715.postman.co/workspace/Aman-Gupta's-Workspace~6bc67439-fb33-4706-8ca6-af13725517e9/collection/49882655-bd1dae9d-31bf-4233-9c12-492db64867f1?action=share&source=collection_link&creator=49882655"
+	},
+	"item": [
+		{
+			"name": "https://vernanbackend.ezlab.in/api/contact-us/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"created_at\": \"2025-10-10T05:27:59.371578Z\", \r\n\"email\": \"hsatyamrav@gmail.com\", \r\n\"id\": 49, \r\n\"message\": \"kjhgcgj\", \r\n\"name\": \"Amit\", \r\n\"phone\": \"908765498\", \r\n\"updated_at\": \"2025-10-10T05:27:59.371598Z\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://vernanbackend.ezlab.in/api/contact-us/",
+					"protocol": "https",
+					"host": [
+						"vernanbackend",
+						"ezlab",
+						"in"
+					],
+					"path": [
+						"api",
+						"contact-us",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
